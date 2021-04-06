@@ -22,6 +22,7 @@ npm install dotenv-webpack@2.0.0 --save-dev
 
 
 ```bash...
+...
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
@@ -32,6 +33,7 @@ module.exports = {
   ],
   ...
   }
+};
 ```
 
 * _In order to access environmental variables in your application, users will need to preface the environmental variable with process.env. Here's an example using API_KEY from:_
